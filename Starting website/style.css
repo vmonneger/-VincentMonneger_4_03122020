@@ -26,9 +26,9 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+/* SUPPRESSION WIDTH 100% CAR DEBORDEMENT */
 .bloc {
-    width: 100%;
+    /* width: 100%; */
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -123,7 +123,8 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+/* SUPPRESSION .D-BLOC A .ICON-MD POUR LE CONTRASTE */
+/* .d-bloc a .icon-md, */
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -651,15 +652,16 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
-
+/* SUPPRESSION MAX WIDTH A CAUSE DE DECALAGE EN CENTER */
 .container {
-    max-width: 1000px;
+    /* max-width: 1000px; */
 }
-
+/* TEXT PAS CENTRE AJOUT TEXT ALIGN */
 .hero-bloc-text {
     font-size: 38px;
+    text-align: center;
 }
 
 .hero-bloc-text-sub {
@@ -675,14 +677,32 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
-p {
-    font-size: 11px;
+/* MODIFICATION COULEUR CONTRASTE FOOTER */
+.footer-black {
+    color: black;
 }
-
+.footer-black a {
+    color: black;
+}
+.footer-black p {
+    color: black;
+}
+/* MODIFICATION FONT SIZE P */
+p {
+    font-size: 15px;
+}
+/* MODIFICATION CITATION FONT SIZE POUR LA MEME QUE H2 */
+.font-size-p-citation {
+    font-size: 22px;
+    font-style: italic;
+}
+/* TEXT PAS CENTRE ET CONTRASTE MAUVAIS ET FONT SIZE TROP PETITE */
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    text-align: center;
+    color: black;
+    font-size: 19px;
 }
 
 .h1 {
@@ -707,6 +727,8 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    /* AJOUT COLOR PAREILLE QUE H3 POUR LA COHERENCE DE TITRE */
+    color: #333333!important;
 }
 
 h3 {
@@ -773,7 +795,7 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
+/* SUPPRESSION DE LA COLOR TEXTE INVISIBLE */
 .tc-white {
     color: #F3976C!important;
 }
@@ -812,10 +834,10 @@ h4 {
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
-
-.bg-lines-h2-bg {
+/* SUPPRESSION BACKGROUND IMAGE POUR LISIBILITE */
+/* .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-}
+} */
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
