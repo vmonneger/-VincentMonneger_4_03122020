@@ -764,9 +764,11 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+/* CENTRAGE IMAGE POUR MODE MOBILE */
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .portfolio-row {
@@ -791,10 +793,10 @@ h4 {
 .bgc-white {
     background-color: #FFFFFF;
 }
-
-.bgc-dark-slate-blue {
+/* BACKGROUND COLOR INUTILE */
+/* .bgc-dark-slate-blue {
     background-color: #364577;
-}
+} */
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -803,10 +805,10 @@ h4 {
 .tc-white {
     color: #F3976C!important;
 }
-
+/* CHANGEMENT COLOR POUR CONTRASTE */
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -848,7 +850,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
