@@ -748,8 +748,13 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
+/* MODIFICATION COLOR H1 PAGE 2 */
+.color-black {
+    color: black;
+}
+
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
@@ -762,7 +767,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 /* CENTRAGE IMAGE POUR MODE MOBILE */
 .portfolio-thumb {
